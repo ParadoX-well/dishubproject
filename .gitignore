@@ -30,3 +30,40 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+# CodeIgniter cache and logs
+application/cache/
+application/logs/
+
+# Composer vendor directory (if you use it)
+vendor/
+
+# Node.js dependencies (if any frontend assets)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# OS or temp files
+*.log
+*.tmp
+*.bak
+
+# Environment / secrets (if you use .env)
+.env
+
+# PHPStorm or NetBeans
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# Git ignored files backup
+*.orig
+
+# Windows thumbnail cache
+ehthumbs.db
