@@ -1,69 +1,20 @@
-.DS_Store
-
-application/cache/*
-!application/cache/index.html
-
-application/logs/*
-!application/logs/index.html
-
-!application/*/.htaccess
-
-composer.lock
-tests/mocks/database/ci_test.sqlite
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
-
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
-
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
-/tests/tests/
-/tests/results/
-
-# CodeIgniter cache and logs
-application/cache/
-application/logs/
-
-# Composer vendor directory (if you use it)
-vendor/
-
-# Node.js dependencies (if any frontend assets)
-node_modules/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE/editor folders
-.idea/
-.vscode/
-
-# OS or temp files
+# Abaikan semua file/folder sistem dan yang tidak perlu
+*.jtx
 *.log
 *.tmp
+*.lock
 *.bak
+AppData/
+Comms/
+UnistoreDB/
+Thumbs.db
+.DS_Store
 
-# Environment / secrets (if you use .env)
+# Folder cache XAMPP & sistem
+tmp/
+logs/
+vendor/
+node_modules/
+.idea/
+.vscode/
 .env
-
-# PHPStorm or NetBeans
-nbproject/
-*.sublime-project
-*.sublime-workspace
-
-# Git ignored files backup
-*.orig
-
-# Windows thumbnail cache
-ehthumbs.db
